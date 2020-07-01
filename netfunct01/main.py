@@ -13,13 +13,21 @@ def commandpush(devicecmd): # devicecmd==list
 
 # function iterates list of IP's and prints message to console
 def devicerBoot(list):
-    for key in list.keys():
-        print('Connecting to '+ key, end="\n")
+    for key in list.keys(): #iterates over list
+        print('Connecting to '+ key, end="\n") #print message with key "ip addr"
         print('REBOOTING NOW!', end="\n")
+
+# function to read txt file
+#def readIpFile():
+    
+
+
+
 # start our main script
 def main():
     work2do = {"10.1.0.1":["interface eth1/2", "no shutdown"], "10.2.0.1": 
-    ["interface eth1/1", "shutdown"], "10.3.0.1":["interface eth1/5", "no shutdown"]} 
+    ["interface eth1/1", "shutdown"], "10.3.0.1":["interface eth1/5", "no shutdown"]}
+
     # data that replaces data stored in file
 
     print("Welcome to the network device command pusher") # welcome message
