@@ -47,7 +47,8 @@ rooms = {
                   'south' : 'Garden',
                   'north' : 'Secret Room',
                   'item'  : 'potion',
-                  'item'  : 'clue'
+                  'item'  : 'clue',
+                  'broken': 'false'
                 },
             'Garden'  : {
                   'north' : 'Dining Room',
@@ -84,11 +85,14 @@ while True:
 
   #if they type 'go' first
   if move[0] == 'go':
+    # check for broken wall
+    if rooms[currentRoom] == 'Dining Room' and 'broken' in rooms[currentRoom] == 'false':
+        print('ok')
     #check that they are allowed wherever they want to go
     if move[1] in rooms[currentRoom]:
       #set the current room to the new room
       currentRoom = rooms[currentRoom][move[1]]
-    #elif m
+
     #there is no door (link) to the new room
     else:
         print('You can\'t go that way!')
