@@ -1,0 +1,15 @@
+INFO:07/09/2020 01:37:35 PM Scripting started
+CRITICAL:07/09/2020 01:37:35 PM must be str, not NoneType
+INFO:07/09/2020 01:37:35 PM Program ended
+INFO:07/09/2020 01:53:51 PM Scripting started
+CRITICAL:07/09/2020 01:53:51 PM must be str, not NoneType
+INFO:07/09/2020 01:53:51 PM Program ended
+INFO:07/09/2020 01:54:03 PM Scripting started
+CRITICAL:07/09/2020 01:54:03 PM must be str, not NoneType
+INFO:07/09/2020 01:54:03 PM Program ended
+INFO:07/09/2020 01:54:48 PM Scripting started
+CRITICAL:07/09/2020 01:54:48 PM must be str, not NoneType
+INFO:07/09/2020 01:54:48 PM Program ended
+INFO:07/09/2020 01:56:45 PM Scripting started
+CRITICAL:07/09/2020 01:56:45 PM must be str, not NoneType
+INFO:07/09/2020 01:56:45 PM Program ended
